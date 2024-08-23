@@ -1,0 +1,36 @@
+* {
+    font-family: "Arimo", sans-serif;
+}
+
+body {
+    background-color: #23222a;
+    color: #DFE0E2;
+}
+
+
+#foto-texto h3 {
+    text-align: center;
+    color: #5F46C3;
+}
+
+#foto-texto h1{
+    margin-bottom: 70px;
+    text-decoration: underline;
+    text-decoration-color: #5F46C3;
+    text-decoration-thickness: 1.5px;
+}
+
+.foto-nome img {
+    width: 380px;
+    border-radius: 50%;
+}
+
+.foto-nome {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
