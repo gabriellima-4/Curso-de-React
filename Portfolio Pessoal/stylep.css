@@ -45,6 +45,7 @@ body {
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 #linguagensProgramacao h2 {
@@ -62,3 +63,21 @@ body {
     align-content: center;
     justify-content: center;
 }
+
+#Projetos h2 {
+    text-align: center;
+}
+
+.fileira-projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 60px;
+}
+
+
+
+
+
