@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #1d1c25;
+    background-color: #121117;
     color: #DFE0E2;
 }
 
@@ -21,11 +21,11 @@ body {
 }
 
 #foto-texto p {
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 .foto-nome img {
-    width: 380px;
+    width: 385px;
     border-radius: 50%;
 }
 
@@ -45,7 +45,7 @@ body {
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 #linguagensProgramacao h2 {
@@ -74,7 +74,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 .BD-Card,
@@ -89,5 +89,32 @@ body {
 }
 
 
+#Contato h2 {
+    text-align: center;
+}
+
+.fileira-contatos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+.Github,
+.LinkedIn,
+.Instagram,
+.Playstation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
 
+footer {
+    padding-right: 15px;
+    text-align: end;
+}
