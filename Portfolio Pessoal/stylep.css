@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #121117;
+    background-color: #131316;
     color: #DFE0E2;
 }
 
@@ -15,7 +15,9 @@ body {
 }
 
 #foto-texto h1{
-    margin-bottom: 70px;
+    font-style: oblique;
+    font-size: 30px;
+    margin-bottom: 90px;
     text-decoration: underline;
     text-decoration-color: #5F46C3;
     text-decoration-thickness: 1.5px;
@@ -26,7 +28,8 @@ body {
 }
 
 .foto-nome img {
-    width: 385px;
+    padding: 15px;
+    width: 400px;
     border-radius: 50%;
 }
 
@@ -46,6 +49,7 @@ body {
 #foto-texto p {
     justify-content: center;
     text-align: center;
+    line-height: 32px;
 }
 
 
@@ -65,6 +69,7 @@ body {
 
 #linguagensProgramacao h2 {
     text-align: center;
+    padding: 10px;
 }
 
 .python,
@@ -79,8 +84,20 @@ body {
     justify-content: center;
 }
 
+.python p,
+.C p,
+.Go p,
+.html p,
+.CSS p {
+    font-size: 19px;
+}
+
 #Projetos h2 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #5F46C3;
+    text-decoration-thickness: 1.5px;
+    padding: 10px;
 }
 
 .fileira-projetos {
@@ -94,6 +111,7 @@ body {
 
 .BD-Card,
 .MS-Card {
+    border-radius: 20px;
     width: 40rem;
     padding: 20px;
     display: flex;
@@ -105,17 +123,28 @@ body {
 
 .BD-Card:hover,
 .MS-Card:hover {
-    box-shadow: 0 4px 9px 0 rgba(95, 70, 195, 0.8);
+    box-shadow: 0 5px 10px 8px rgba(95, 70, 195, 0.8);
     transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#Projetos a {
+    text-decoration: none;
 }
 
 .BD-Card p,
 .MS-Card p {
+    color: #DFE0E2;
     font-size: 22px;
 }
 
 #Contato h2 {
     text-align: center;
+    padding: 10px;
+}
+
+#Contato a {
+    text-decoration: none;
 }
 
 .fileira-contatos {
@@ -127,15 +156,26 @@ body {
     margin-bottom: 90px;
 }
 
-.Github,
-.LinkedIn,
-.Instagram,
-.Playstation {
+.GH-Card,
+.LK-Card,
+.IG-Card,
+.Playstation-Card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     align-content: center;
+    justify-content: center;
+}
+
+
+.GH-Card p,
+.LK-Card p,
+.IG-Card p,
+.Playstation-Card p {
+    text-align: center;
+    text-decoration: none;
+    color: #DFE0E2;
+    font-size: 19px;
 }
 
 
