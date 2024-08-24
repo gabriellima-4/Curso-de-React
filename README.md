@@ -1,0 +1,1 @@
+<img src="https://blogjavascript.com.br/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fblogjavascript%2Ffec624e1-2423-42c5-a412-b21796101e78_2.jpg%3Fauto%3Dcompress%2Cformat&w=3840&q=75">
