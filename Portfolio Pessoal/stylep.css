@@ -71,12 +71,22 @@ body {
 .fileira-projetos {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
     margin-bottom: 60px;
 }
 
+.BD-Card,
+.MS-Card {
+    width: 30rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
 
 
 
