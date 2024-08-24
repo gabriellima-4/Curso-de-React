@@ -3,24 +3,26 @@
 }
 
 body {
-    background-color: #131316;
+    background-color: #1a1a1f;
     color: #DFE0E2;
 }
+
+
 
 
 #foto-texto h3 {
     font-size: 14px;
     text-align: center;
-    color: #5F46C3;
+    color: #FEA82F;
 }
 
 #foto-texto h1{
     font-style: oblique;
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 90px;
     text-decoration: underline;
-    text-decoration-color: #5F46C3;
-    text-decoration-thickness: 1.5px;
+    text-decoration-color: #FEA82F;
+    text-decoration-thickness: 1.8px;
 }
 
 #foto-texto p {
@@ -44,6 +46,9 @@ body {
 
 #foto-texto h2 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #FEA82F;
+    text-decoration-thickness: 1.2px;
 }
 
 #foto-texto p {
@@ -51,9 +56,6 @@ body {
     text-align: center;
     line-height: 32px;
 }
-
-
-
 
 
 
@@ -70,6 +72,9 @@ body {
 #linguagensProgramacao h2 {
     text-align: center;
     padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: #FEA82F;
+    text-decoration-thickness: 1.5px;
 }
 
 .python,
@@ -92,10 +97,13 @@ body {
     font-size: 19px;
 }
 
+
+
+
 #Projetos h2 {
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: #5F46C3;
+    text-decoration-color: #FEA82F;
     text-decoration-thickness: 1.5px;
     padding: 10px;
 }
@@ -123,7 +131,7 @@ body {
 
 .BD-Card:hover,
 .MS-Card:hover {
-    box-shadow: 0 5px 10px 8px rgba(95, 70, 195, 0.8);
+    box-shadow: 0 5px 10px 6px rgba(254, 168, 47, 0.9);
     transition: 0.5s;
     transition-timing-function: ease-in-out;
 }
@@ -137,6 +145,9 @@ body {
     color: #DFE0E2;
     font-size: 22px;
 }
+
+
+
 
 #Contato h2 {
     text-align: center;
@@ -165,6 +176,10 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
+
+    border-radius: 20px;
+    width: 9rem;
+    padding: 20px;
 }
 
 
@@ -177,6 +192,25 @@ body {
     color: #DFE0E2;
     font-size: 19px;
 }
+
+
+.GH-Card:hover,
+.LK-Card:hover,
+.IG-Card:hover,
+.Playstation-Card:hover {
+    box-shadow: 0 5px 10px 6px rgba(254, 168, 47, 0.9);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.Playstation-Card img {
+    margin-top: 20px;
+}
+
+.Playstation-Card span {
+    line-height: 30px;
+}
+
 
 
 footer {
