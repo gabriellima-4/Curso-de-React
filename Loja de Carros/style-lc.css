@@ -108,6 +108,7 @@ h2 img {
 
 #Showroom h2 {
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 
@@ -241,6 +242,32 @@ h2 img {
     text-align: center;
 }
 
+#rodapeShowroom {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
 
+#rodapeShowroom span {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(37, 28, 28);
+    color: whitesmoke;
+
+    font-size: 14px;
+    height: 15rem;
+}
+
+.mais-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
