@@ -68,7 +68,7 @@ header img:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 21px;
+    line-height: 26px;
 }
 
 .apresentacao h1 {
@@ -78,7 +78,7 @@ header img:hover {
 
 button {
     width: 6rem;
-    height: 3rem;
+    height: 2.8rem;
     background-color: black;
     color: white;
     border-color: whitesmoke;
@@ -146,7 +146,26 @@ h2 img {
     width: 43vw;
     height: 40rem;
     margin-bottom: 30px;
+    border-radius: 18px;
 }
+
+.Ferrari-Roma-Card:hover,
+.Lamborghini-Urus-Card:hover,
+.Ferrari-296-GTB-Card:hover,
+.Lamborghini-Huracan-STO-Card:hover,
+.BMW-X6-Card:hover,
+.Porsche-Cayman-GTS-Card:hover,
+.Porsche-911-Card:hover,
+.Audi-RS6-Card:hover,
+.DBX707-Card:hover,
+.M765LT-Card:hover,
+.Artura-Card:hover,
+.Rolls-Royce-Cullinan-Card:hover {
+    box-shadow: 1px 1px 3px 2px rgba(255, 0, 0, 0.537);
+    transition: 0.8s ease;
+}
+
+
 
 .Ferrari-Roma-Card img,
 .Lamborghini-Urus-Card img,
@@ -192,7 +211,7 @@ h2 img {
 .M765LT-Container h4,
 .Artura-Container h4,
 .Cullinan-Container h4 {
-    font-size: 20px;
+    font-size: 24px;
 } 
 
 .Roma-Container img,
@@ -256,11 +275,11 @@ h2 img {
 
 footer {
     padding: 15px;
-    background-color: rgb(37, 28, 28);
+    background-color: rgb(36, 36, 36);
     color: whitesmoke;
 
     font-size: 14px;
-    height: 15rem;
+    height: 270px;
 }
 
 .mais-informacoes {
@@ -268,6 +287,15 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 75%;
+    line-height: 25px;
 }
 
+.mais-informacoes a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
+.logo-nome {
+    margin-left: 14px;
+}
