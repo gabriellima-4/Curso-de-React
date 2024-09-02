@@ -141,8 +141,8 @@ h2 img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: normal;
-    width: 42vw;
+    align-items: center;
+    width: 43vw;
     height: 40vh;
     margin-bottom: 100px;
 }
@@ -176,7 +176,23 @@ h2 img {
 .Artura-Container,
 .Cullinan-Container {
     padding: 14px;
+    width: 100%;
 }
+
+.Roma-Container h4,
+.Urus-Container h4,
+.F296GTB-Container h4,
+.Huracan-Container h4,
+.X6-Container h4,
+.Cayman-Container h4,
+.Porsche-911-Container h4,
+.Audi-Container h4,
+.DBX707-Container h4,
+.M765-Container h4,
+.Artura-Container h4,
+.Cullinan-Container h4 {
+    font-size: 20px;
+} 
 
 .Roma-Container img,
 .Urus-Container img,
@@ -191,6 +207,7 @@ h2 img {
 .Artura-Container img,
 .Cullinan-Container img{
     width: 24px;
+    margin-right: 6px;
 }
 
 .Roma-Info,
@@ -205,17 +222,23 @@ h2 img {
 .M765LT-Info,
 .Artura-Info,
 .Cullinan-Info {
+    padding: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    height: 4rem;
+    width: 100%;
+    font-size: 13px;
 }
 
 .fotoprincipal {
     border-radius: 18px;
 }
 
-
+.preco {
+    text-align: center;
+}
 
 
 
