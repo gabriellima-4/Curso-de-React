@@ -142,7 +142,7 @@ h2 img {
     flex-direction: column;
     justify-content: center;
     align-items: normal;
-    width: 40vw;
+    width: 42vw;
     height: 40vh;
     margin-bottom: 100px;
 }
@@ -159,7 +159,7 @@ h2 img {
 .M765LT-Card img,
 .Artura-Card img,
 .Rolls-Royce-Cullinan-Card img {
-    width: 75%;
+    width: 70%;
     /* border-radius: 18px; */
 }
 
@@ -211,7 +211,9 @@ h2 img {
     align-items: center;
 }
 
-
+.fotoprincipal {
+    border-radius: 18px;
+}
 
 
 
