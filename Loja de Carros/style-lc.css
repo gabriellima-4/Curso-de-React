@@ -61,6 +61,28 @@ header img:hover {
     align-items: center;
 }
 
+@media screen and (max-width: 550px) {
+    html {
+        width: 100vw;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    .apresentacao img {
+        width: 90vw;
+    }
+
+    .apresentacao p{
+        font-size: 13px;
+        max-width: 90%;
+    }
+
+}
+
+
+
 .apresentacao {
     padding: 20px;
     display: flex;
