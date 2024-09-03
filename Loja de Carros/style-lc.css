@@ -39,7 +39,7 @@ header {
 header p:hover{
     text-decoration: underline;
     text-decoration-color: red;
-    transition: left 0.5s; 
+    transition: 0.5s; 
 }
 
 header img:hover {
@@ -59,26 +59,6 @@ header img:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-@media screen and (max-width: 550px) {
-    html {
-        width: 100vw;
-    }
-
-    header {
-        max-width: 100%;
-    }
-
-    .apresentacao img {
-        width: 90vw;
-    }
-
-    .apresentacao p{
-        font-size: 13px;
-        max-width: 90%;
-    }
-
 }
 
 
@@ -120,7 +100,7 @@ h2 img {
 
 #tituloShowroom {
     text-align: center;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-size: 28px;
     text-decoration: underline red;
     font-style: italic;
@@ -321,3 +301,122 @@ footer {
 .logo-nome {
     margin-left: 14px;
 }
+
+
+@media screen and (max-width: 550px) and (max-height: 950px) and (min-width: 190px) and (min-height: 480px) {
+    html {
+        width: 100vw;
+    }
+
+    header {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .apresentacao img {
+        width: 90vw;
+    }
+
+    .apresentacao p{
+        font-size: 13px;
+        max-width: 90%;
+    }
+
+    .Logo-Site h2 {
+        font-size: 17px;
+    }
+
+
+    .Italia-Fileira1,
+    .Italia-Fileira2,
+    .Alemanha-Fileira1,
+    .Alemanha-Fileira2,
+    .Inglaterra-Fileira1,
+    .Inglaterra-Fileira2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Ferrari-Roma-Card,
+    .Lamborghini-Urus-Card,
+    .Ferrari-296-GTB-Card,
+    .Lamborghini-Huracan-STO-Card,
+    .BMW-X6-Card,
+    .Porsche-Cayman-GTS-Card,
+    .Porsche-911-Card,
+    .Audi-RS6-Card,
+    .DBX707-Card,
+    .M765LT-Card,
+    .Artura-Card,
+    .Rolls-Royce-Cullinan-Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+        height: 31rem;
+
+        margin-bottom: 35px;
+        border-radius: 18px;
+    }
+
+    .Roma-Container,
+    .Urus-Container,
+    .F296GTB-Container,
+    .Huracan-Container,
+    .X6-Container,
+    .Cayman-Container,
+    .Porsche-911-Container,
+    .Audi-Container,
+    .DBX707-Container,
+    .M765LT-Container,
+    .Artura-Container,
+    .Cullinan-Container {
+        padding: 12px;
+        width: 100%;
+    }
+
+    .Roma-Info,
+    .Urus-Info,
+    .F296-Info,
+    .Huracan-Info,
+    .X6-Info,
+    .Cayman-Info,
+    .P911TS-Info,
+    .Audi-Info,
+    .DBX-Info,
+    .M765LT-Info,
+    .Artura-Info,
+    .Cullinan-Info {
+        padding: 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 97%;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .Roma-Info img,
+    .Urus-Info img,
+    .F296-Info img,
+    .Huracan-Info img,
+    .X6-Info img,
+    .Cayman-Info img,
+    .P911TS-Info img,
+    .Audi-Info img,
+    .DBX-Info img,
+    .M765LT-Info img,
+    .Artura-Info img,
+    .Cullinan-Info img {
+        width: 20px;
+        margin-left: 3px;
+    }
+
+}
+
+
