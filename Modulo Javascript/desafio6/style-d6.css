@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#botao {
+    margin-left: 45%;
+    margin-top: 25%;
+    background-color: red;
+    color: white;
+    width: 5rem;
+    height: 2.5rem;
+}
