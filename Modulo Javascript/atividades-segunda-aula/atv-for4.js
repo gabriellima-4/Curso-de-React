@@ -1,3 +1,4 @@
+//Fatorial: Calcule o fatorial de um número informado pelo usuário.
 //vai tomar no cu
 
 let numero = 5;
